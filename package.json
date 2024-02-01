@@ -4,7 +4,9 @@
   "description": "Olá! Eu sou o Hallan, um entusiasta de Engenharia de Software e estudante dedicado na Faculdade Facid Wyden. Este é o meu espaço virtual onde compartilho minha jornada de aprendizado, projetos em desenvolvimento e conquistas ao longo do caminho.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
@@ -12,5 +14,8 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.4"
   }
 }
