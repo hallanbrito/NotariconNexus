@@ -1,3 +1,5 @@
 .next
 .node_modules
 node_modules
+.models/calculadora.js
+.testes/calculadora.test.js
