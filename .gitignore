@@ -3,4 +3,3 @@
 node_modules
 .models/calculadora.js
 .testes/calculadora.test.js
-.env
